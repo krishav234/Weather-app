@@ -49,7 +49,7 @@ function App() {
 
         <div className="tempstats d-flex flex-c">
           <h1>{weather.main.temp} <span>&deg;C</span></h1>
-          <h3>Feels Like {weather.main.feels_like} <span>&deg;C</span></h3>
+          <h3>Feels Like{weather.main.feels_like} <span>&deg;C</span></h3>
         </div>
 
         <div className="windstats d-flex">
